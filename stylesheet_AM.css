@@ -1,0 +1,439 @@
+
+body
+{
+    background-color:#42455a ;
+}
+.h1
+{
+    color: #cecece;
+    font-family: Merriweather Sans;
+    font-size: 200%;
+    text-decoration: underline;
+    margin-left: 200px;
+    margin-top: 200px;
+    animation-name: heading;
+    animation-duration: 1s;
+}
+@keyframes heading
+{
+    0%
+    {
+        margin-left:  70%;
+        margin-top: 200px;
+    }
+    100%
+    {
+        margin-left: 200px;
+    margin-top: 200px;
+    }
+}
+.defi
+{
+    color: #cecece;
+    font-family: Merriweather Sans;
+    font-size: 100%;
+    margin-left: 200px;
+    margin-top: -10px;
+    position: relative;
+}
+
+.img_1
+{
+    width: 40%;
+    margin-left: 700px;
+    margin-top: -150px;
+    position: relative;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: example;
+    animation-duration: 1s;
+    
+}
+@keyframes example
+{
+    
+    0%
+    {
+        margin-left: -1500px;
+    margin-top: -150px;
+    }
+    
+    100%
+    {
+        margin-left: 700px;
+    margin-top: -150px;
+    }
+}
+
+.menu ul
+{
+    display: inline-flex;
+   margin-left: 130px;
+   margin-top: 60px;
+}
+
+.menu ul li
+{
+    list-style: none;
+    margin: 0 20px;
+
+}
+.active
+{
+    color: rgb(3, 65, 182);
+}
+
+.sign
+{
+    display: inline-block;
+    margin-left: 600px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius:  20px;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    padding: 2px;
+}
+.FS
+{
+    color: #cecece;
+    text-decoration: underline;
+    font-family: Merriweather Sans;
+    font-size: 200%;
+    margin-top: 100px;
+    margin-left: 20px;
+    animation-name: Future_scope;
+    animation-duration: 1s;
+    
+    animation-timing-function: linear ;
+}
+@keyframes Future_scope
+{
+    0%
+    {
+        margin-top: 100px;
+        margin-left: 1000px;
+    }
+    
+    100%
+    {
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+}
+p
+{
+    color: #cecece;
+    font-family: Merriweather Sans;
+    font-size: 100%;
+    text-align: justify;
+    width: 50%;
+    margin-left: 20px;
+}
+.img_2
+{
+    width: 40%;
+    margin-left: 750px;
+    margin-top: -550px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: img_2;
+    animation-duration: 0.9s;
+    animation-timing-function: linear;
+}
+
+@keyframes img_2
+{
+   
+    0%
+    {
+        margin-left: -1500px;
+    margin-top: -550px;
+    }
+    
+    100%
+    {
+        margin-left: 750px;
+    margin-top: -550px;
+    }
+}
+.t
+{
+    color: #cecece;
+    font-family: Merriweather Sans;
+    font-size: 200%;
+    text-decoration: underline;
+    margin-left: 320px;
+    margin-top: 70px;
+    animation-name: t;
+    animation-duration: 2s;
+    
+}
+@keyframes t
+{
+    0%
+    {
+        margin-left: 320px;
+    margin-top: -100px;
+    }
+    100%
+    {
+        margin-left: 320px;
+    margin-top: 70px;
+    }
+}
+.evo
+{
+    display: inline-block;
+    color: #cecece;
+    font-family:Merriweather Sans ;
+    text-align: justify;
+    margin-right:  200px;
+    margin-left: 50px;
+    
+}
+.Evo_heading
+{
+    color: #cecece;
+    font-family: Merriweather Sans;
+    text-decoration: underline;
+    margin-left: 60px;
+    margin-top: 50px;
+    animation-name: Evo_heading;
+    animation-duration: 2s;
+    position: relative;
+    
+}
+@keyframes Evo_heading
+{
+    0%
+    {
+        margin-left: 60px;
+    margin-top: -100px;
+    }
+    100%
+    {
+        margin-left: 60px;
+    margin-top: 50px;
+    }
+}
+.Hideo
+{
+    position: absolute;
+    width: 400px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 920px;
+    margin-top: 60px;
+    animation-name: hideo;
+    animation-duration: 1s;
+    
+}
+@keyframes hideo
+{
+   
+    0%
+    {
+        margin-left: -1000px;
+    margin-top: -200px;
+    }
+    
+    100%
+    {
+        margin-left: 920px;
+    margin-top: 60px;
+    }
+}
+
+.AM1980
+{
+    position: absolute;
+    width: 400px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 920px;
+    margin-top: 300px;
+    animation-name: AM1980;
+    animation-duration: 2s;
+}
+@keyframes AM1980
+{
+   
+    0%
+    {
+        margin-left: -1000px;
+    margin-top: -500px;
+    }
+    
+    100%
+    {
+        margin-left: 920px;
+    margin-top: 300px;
+    }
+}
+.Hull
+{
+    position: absolute;
+    width: 400px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 920px;
+    margin-top: 556px;
+    animation-name: Hull;
+    animation-duration: 3s;
+}
+@keyframes Hull
+{
+
+    0%
+    {
+        margin-left: -1000px;
+        margin-top: -556px;
+    }
+    100%
+    {
+        margin-left: 920px;
+        margin-top: 556px;
+    }
+}
+.SLM
+{
+    position: absolute;
+    width: 400px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 920px;
+    margin-top: 780px;
+    animation-name: SLM;
+    animation-duration: 4s;
+}
+@keyframes SLM
+{
+
+    0%
+    {
+        margin-left: -1000px;
+        margin-top: -556px;
+    }
+    100%
+    {
+        margin-left: 920px;
+        margin-top: 780px;
+    }
+}
+.heart
+{
+    position: absolute;
+    width: 400px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 920px;
+    margin-top: 1032px;
+    animation-name: heart;
+    animation-duration: 5s;
+}
+@keyframes heart
+{
+
+    0%
+    {
+        margin-left: -1000px;
+        margin-top: -556px;
+    }
+    100%
+    {
+        margin-left: 920px;
+        margin-top: 1032px;
+    }
+}
+.leg
+{
+    
+    position: absolute;
+    width: 400px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 920px;
+    margin-top: 1314px;
+    animation-name: leg;
+    animation-duration: 6s;
+}
+@keyframes leg
+{
+
+    0%
+    {
+        margin-left: -1000px;
+        margin-top: -556px;
+    }
+    100%
+    {
+        margin-left: 920px;
+        margin-top: 1314px;
+    }
+}
+.car
+{
+    
+    position: absolute;
+    width: 400px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 920px;
+    margin-top: 1598px;
+    animation-name: car;
+    animation-duration: 7s;
+}
+@keyframes car
+{
+
+    0%
+    {
+        margin-left: -1000px;
+        margin-top: -556px;
+    }
+    100%
+    {
+        margin-left: 920px;
+        margin-top: 1598px;
+    }
+}
+.ventilators
+{
+    position: absolute;
+    width: 400px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 920px;
+    margin-top: 1815px;
+    animation-name: ventilators;
+    animation-duration: 9s;
+}
+@keyframes ventilators
+{
+
+    0%
+    {
+        margin-left: -1000px;
+        margin-top: -556px;
+    }
+    100%
+    {
+        margin-left: 920px;
+        margin-top: 1815px;
+    }
+}
+
+.type_img
+{
+    margin-left: 380px;
+    margin-top: 20px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: type;
+    animation-duration: 2s;
+
+}
+@keyframes type
+{
+    0%
+    {
+        margin-left: -1000px;
+        margin-top: -500px;
+    }
+    100%
+    {
+        margin-left: 380px;
+        margin-top: 20px;
+    }
+}

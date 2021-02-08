@@ -1,0 +1,95 @@
+body
+		{
+			background-image: url("What\'s\ app.jpg");
+			
+			
+		}
+		h1
+		{
+			text-align: center;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;	
+			font-size: 200%;	
+			color: rgb(62, 65, 64);
+			
+		}
+		nav
+		{
+			text-align: center;
+		}
+		span
+		{
+			text-align: center;
+			font-size: 150%;
+			font-family: fantasy;
+			padding: 2%;
+			background-color: orangered;
+		}
+		#id
+		{
+			text-align: justify;
+			font-family: Verdana, Geneva, Tahoma, sans-serif;	
+			font-size: 200%;	
+			color: rgb(90, 83, 83);
+		}
+		p{
+			text-align: center;
+			font-family: Poppins;	
+			font-size: 200%;	
+			color: rgb(93, 86, 86);
+			font-weight: 900;
+		}
+		a:hover
+		{
+            background-color: orchid;
+            padding: %;
+        }
+        div{
+            text-align: center;
+            border:5ch;
+            padding: 2%;
+		}
+		ol
+		{
+			font-family: sofia;
+			font-size: 200%;
+			color:rgb(0, 0, 0);
+			list-style-type: lower-roman;
+			background-color: thistle;
+			background-size: width ;
+			padding: 2%;
+			
+		}
+		li
+		{
+			
+			background-color: rgb(255, 0, 221);
+			margin-left: 20px;
+			
+		}
+		table
+		{
+			border-collapse: collapse;
+		}
+		table,tr
+		{
+			font-family: sofia;
+			text-align: center;
+			font-size: 150%;
+		}
+	
+		th
+		{
+			background-color: rgb(42, 28, 231);
+		}
+		td
+		{
+			background-color: rgb(90, 181, 255);
+		}
+		tr:hover
+		{
+			background-color: rgb(255, 9, 255);
+		}
+		tr:hover
+		{
+			background-color: rgb(255, 47, 58);
+		}
